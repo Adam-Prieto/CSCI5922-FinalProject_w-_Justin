@@ -1,5 +1,10 @@
 # CSCI5922-FinalProject_w-_Justin
 
+## Updates (As they occur)
+
+4/12 - Fully trained YoloV8 model on African Animal dataset after much headache. My next step is to get this model working with others from the google doc page. Also, training
+the model on 100 epoch took a lot longer than I would've guessed. Would not recommend. 
+
 ## Put results from the Object Detection section here
 
 ### [1.) mmdetection](https://github.com/open-mmlab/mmdetection/tree/main/configs/fast_rcnn)
