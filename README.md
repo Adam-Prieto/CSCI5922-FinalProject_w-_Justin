@@ -3,7 +3,12 @@
 ## Updates (As they occur)
 
 4/12 - Fully trained YoloV8 model on African Animal dataset after much headache. My next step is to get this model working with others from the google doc page. Also, training
-the model on 100 epoch took a lot longer than I would've guessed. Would not recommend. 
+the model on 100 epoch took a lot longer than I would've guessed. Would not recommend.
+
+4/14 
+* More models are located [here](https://github.com/open-mmlab/mmdetection?tab=readme-ov-file#overview-of-benchmark-and-model-zoo).
+* Loading models with mmdet runs into an installation error: NotImplementedError: A UTF-8 locale is required. Got ANSI_X3.4-1968. This error severly impacts loading pretrained models into google colab.
+* [Link](https://github.com/open-mmlab/mmdetection/tree/main/configs/rtmdet) tries to work through installation, looking into now. 
 
 ## Put results from the Object Detection section here
 
