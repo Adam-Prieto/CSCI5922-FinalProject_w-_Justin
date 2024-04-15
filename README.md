@@ -19,3 +19,25 @@ the model on 100 epoch took a lot longer than I would've guessed. Would not reco
 
 ### [2.) Faster R-CNN](https://github.com/open-mmlab/mmdetection/tree/main/configs/faster_rcnn)
 * No code provided.
+
+
+## Convert YOLO dataset to COCO format
+```
+from pathlib import Path
+
+import globox
+
+
+def main():
+  folder = Path("datasets/african-wildlife/valid/labels/")  # Where the .txt files are
+  image_folder = Path("datasets/african-wildlife/valid/images/")
+  save_file = Path("annotation_coco.json")
+
+  annotations = globox.AnnotationSet.from_yolo_v5(folder=folder, image_folder=image_folder)
+  annotations.show_stats()
+  annotations.save_coco(save_file, auto_ids=True)
+
+
+if __name__ == "__main__":
+    main()
+```
