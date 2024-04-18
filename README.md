@@ -16,7 +16,7 @@ the model on 100 epoch took a lot longer than I would've guessed. Would not reco
 ## Metrics for Object Detection Models
 This section contains the mAP, inference times, and memory usage during inference for each model. Fill in the blanks under each model name the output of running the inference command and provided configuration files located in the `mmdetection/configs/african-wildlife` directory. To obtain these metrics, follow these steps:
 
-1. Download the weights of the models trained by Justin. They will either be posted in this repository or on a Google Drive link.
+1. Download the [weights of the models](https://o365coloradoedu-my.sharepoint.com/:f:/g/personal/jung5864_colorado_edu/EuUUd68bKmVIjZiH52WXiRIBtcMcpPFJhK_UaK0vUjXAGQ?e=EeW5mr) trained by Justin.
 2. Download the configuration files in the `mmdetection/configs/african-wildlife` directory of this repostory.
 3. Copy the downloaded configuration files into your local repository of [mmdetection](https://github.com/open-mmlab/mmdetection "mmdetection") and its `mmdetection/configs/african-wildlife` directory.
 4. Copy the downloaded weights into your local repository of [mmdetection](https://github.com/open-mmlab/mmdetection "mmdetection") and its `work_dirs` directory.
@@ -73,7 +73,7 @@ Configuration file: `configs/african-wildlife/dino-5scale_swin-l_8xb2-12e_coco.p
 ## Bounding Box Visuals
 This section will detail how to obtain the bounding box predictions on a provided sample image. Follow these steps:
 
-1. Download the weights of the models trained by Justin. They will either be posted in this repository or on a Google Drive link.
+1. Download the [weights of the models](https://o365coloradoedu-my.sharepoint.com/:f:/g/personal/jung5864_colorado_edu/EuUUd68bKmVIjZiH52WXiRIBtcMcpPFJhK_UaK0vUjXAGQ?e=EeW5mr) trained by Justin.
 2. Download the configuration files in the `mmdetection/configs/african-wildlife` directory of this repostory.
 3. Copy the downloaded configuration files into your local repository of [mmdetection](https://github.com/open-mmlab/mmdetection "mmdetection") and its `mmdetection/configs/african-wildlife` directory.
 4. Copy the downloaded weights into your local repository of [mmdetection](https://github.com/open-mmlab/mmdetection "mmdetection") and its `work_dirs` directory.
