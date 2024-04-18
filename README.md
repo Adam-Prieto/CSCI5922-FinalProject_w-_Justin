@@ -51,6 +51,19 @@ Since YOLOv8 is not a part of mmdetection, the format will be different. Post th
 ```
 
 ### Faster R-CNN
+Configuration file: `configs/african-wildlife/faster-rcnn_r50_fpn.py`
+```
+<PASTE YOUR RESULTS HERE>
+```
+
+### RTMDET
+Configuration file: `configs/african-wildlife/rtmdet_l_8xb32-300e_coco.py`
+```
+<PASTE YOUR RESULTS HERE>
+```
+
+### DINO
+Configuration file: `configs/african-wildlife/dino-5scale_swin-l_8xb2-12e_coco.py`
 ```
 <PASTE YOUR RESULTS HERE>
 ```
