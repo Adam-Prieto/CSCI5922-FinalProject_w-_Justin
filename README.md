@@ -44,10 +44,25 @@ python tools/test.py configs/african-wildlife/<CONFIG_NAME> work_dirs/<MODEL_NAM
 04/15 16:26:11 - mmengine - INFO - Epoch(test) [225/225]    coco/bbox_mAP: 0.1960  coco/bbox_mAP_50: 0.4270  coco/bbox_mAP_75: 0.1440  coco/bbox_mAP_s: 0.0000  coco/bbox_mAP_m: 0.1830  coco/bbox_mAP_l: 0.2070  data_time: 0.0143  time: 0.1402
 ```
 
-### YOLOv8
+### YOLOv8 Nano
 Since YOLOv8 is not a part of mmdetection, the format will be different. Post the mAP scores, how long it took to inference each image, and if possible, the memory usage during inferencing.
 ```
-<PASTE YOUR RESULTS HERE>
+```
+
+### YOLOv8 Medium
+Since YOLOv8 is not a part of mmdetection, the format will be different. Post the mAP scores, how long it took to inference each image, and if possible, the memory usage during inferencing.
+```
+YOLOv8m summary (fused): 218 layers, 25842076 parameters, 0 gradients, 78.7 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 225/225 [00:
+                   all        225        379      0.929      0.813      0.916      0.748
+               buffalo        225         89       0.96      0.813      0.935      0.777
+              elephant        225         91      0.869      0.791      0.875      0.697
+                 rhino        225         85       0.96      0.852      0.947       0.81
+                 zebra        225        114      0.928      0.795      0.906      0.708
+Speed: 0.2ms preprocess, 10.7ms inference, 0.0ms loss, 3.7ms postprocess per image
+
+---
+Memory usage during inferencing: 984 MiB
 ```
 
 ### Faster R-CNN
