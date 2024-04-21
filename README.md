@@ -87,7 +87,34 @@ DONE (t=0.02s).
 ### RTMDET
 Configuration file: `configs/african-wildlife/rtmdet_l_8xb32-300e_coco.py`
 ```
-<PASTE YOUR RESULTS HERE>
+04/21 11:28:46 - mmengine - INFO - Epoch(test) [ 50/225]    eta: 0:00:21  time: 0.1235  data_time: 0.0844  memory: 598
+04/21 11:28:47 - mmengine - INFO - Epoch(test) [100/225]    eta: 0:00:09  time: 0.0271  data_time: 0.0004  memory: 598
+04/21 11:28:48 - mmengine - INFO - Epoch(test) [150/225]    eta: 0:00:04  time: 0.0271  data_time: 0.0005  memory: 598
+04/21 11:28:50 - mmengine - INFO - Epoch(test) [200/225]    eta: 0:00:01  time: 0.0269  data_time: 0.0005  memory: 598
+04/21 11:28:51 - mmengine - INFO - Evaluating bbox...
+Loading and preparing results...
+DONE (t=0.11s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.64s).
+Accumulating evaluation results...
+DONE (t=0.28s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.713
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.914
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.794
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.238
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.568
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.738
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.516
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.782
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.800
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.250
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.685
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.818
+04/21 11:28:52 - mmengine - INFO - bbox_mAP_copypaste: 0.713 0.914 0.794 0.238 0.568 0.738
+04/21 11:28:52 - mmengine - INFO - Epoch(test) [225/225]    coco/bbox_mAP: 0.7130  coco/bbox_mAP_50: 0.9140  coco/bbox_mAP_75: 0.7940  coco/bbox_mAP_s: 0.2380  coco/bbox_mAP_m: 0.5680  coco/bbox_mAP_l: 0.7380  data_time: 0.0191  time: 0.0484
 ```
 
 ### DINO
