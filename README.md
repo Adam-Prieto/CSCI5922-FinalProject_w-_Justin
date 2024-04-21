@@ -53,7 +53,35 @@ Since YOLOv8 is not a part of mmdetection, the format will be different. Post th
 ### Faster R-CNN
 Configuration file: `configs/african-wildlife/faster-rcnn_r50_fpn.py`
 ```
-<PASTE YOUR RESULTS HERE>
+04/21 11:26:42 - mmengine - INFO - Load checkpoint from work_dirs/faster-rcnn_r50_fpn/epoch_100.pth
+04/21 11:26:48 - mmengine - INFO - Epoch(test) [ 50/225]    eta: 0:00:21  time: 0.1229  data_time: 0.0858  memory: 351
+04/21 11:26:49 - mmengine - INFO - Epoch(test) [100/225]    eta: 0:00:08  time: 0.0189  data_time: 0.0003  memory: 366
+04/21 11:26:50 - mmengine - INFO - Epoch(test) [150/225]    eta: 0:00:04  time: 0.0189  data_time: 0.0004  memory: 366
+04/21 11:26:51 - mmengine - INFO - Epoch(test) [200/225]    eta: 0:00:01  time: 0.0184  data_time: 0.0004  memory: 366
+04/21 11:26:51 - mmengine - INFO - Evaluating bbox...
+Loading and preparing results...
+DONE (t=0.00s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.643
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=1000 ] = 0.891
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=1000 ] = 0.717
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.468
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.672
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.708
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=300 ] = 0.708
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=1000 ] = 0.708
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.530
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.736
+04/21 11:26:51 - mmengine - INFO - bbox_mAP_copypaste: 0.643 0.891 0.717 0.000 0.468 0.672
+04/21 11:26:51 - mmengine - INFO - Epoch(test) [225/225]    coco/bbox_mAP: 0.6430  coco/bbox_mAP_50: 0.8910  coco/bbox_mAP_75: 0.7170  coco/bbox_mAP_s: 0.0000  coco/bbox_mAP_m: 0.4680  coco/bbox_mAP_l: 0.6720  data_time: 0.0194  time: 0.0419
 ```
 
 ### RTMDET
