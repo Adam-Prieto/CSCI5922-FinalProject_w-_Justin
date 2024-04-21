@@ -120,7 +120,38 @@ DONE (t=0.28s).
 ### DINO
 Configuration file: `configs/african-wildlife/dino-5scale_swin-l_8xb2-12e_coco.py`
 ```
-<PASTE YOUR RESULTS HERE>
+04/21 11:31:10 - mmengine - INFO - Epoch(test) [ 50/225]    eta: 0:00:22  time: 0.1295  data_time: 0.0446  memory: 1198
+
+04/21 11:31:13 - mmengine - INFO - Epoch(test) [100/225]    eta: 0:00:12  time: 0.0699  data_time: 0.0005  memory: 1312
+
+04/21 11:31:17 - mmengine - INFO - Epoch(test) [150/225]    eta: 0:00:06  time: 0.0681  data_time: 0.0006  memory: 1312
+
+04/21 11:31:20 - mmengine - INFO - Epoch(test) [200/225]    eta: 0:00:02  time: 0.0703  data_time: 0.0006  memory: 1312
+
+04/21 11:31:23 - mmengine - INFO - Evaluating bbox...
+Loading and preparing results...
+DONE (t=0.11s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=1.11s).
+Accumulating evaluation results...
+DONE (t=0.61s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.788
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=1000 ] = 0.930
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=1000 ] = 0.843
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.118
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.607
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.817
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.873
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=300 ] = 0.883
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=1000 ] = 0.883
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.117
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.782
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.905
+04/21 11:31:25 - mmengine - INFO - bbox_mAP_copypaste: 0.788 0.930 0.843 0.118 0.607 0.817
+04/21 11:31:25 - mmengine - INFO - Epoch(test) [225/225]    coco/bbox_mAP: 0.7880  coco/bbox_mAP_50: 0.9300  coco/bbox_mAP_75: 0.8430  coco/bbox_mAP_s: 0.1180  coco/bbox_mAP_m: 0.6070  coco/bbox_mAP_l: 0.8170  data_time: 0.0103  time: 0.0829
 ```
 
 ---
