@@ -47,6 +47,17 @@ python tools/test.py configs/african-wildlife/<CONFIG_NAME> work_dirs/<MODEL_NAM
 ### YOLOv8 Nano
 Since YOLOv8 is not a part of mmdetection, the format will be different. Post the mAP scores, how long it took to inference each image, and if possible, the memory usage during inferencing.
 ```
+YOLOv8n summary (fused): 168 layers, 3006428 parameters, 0 gradients, 8.1 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 225/225 [00:
+                   all        225        379      0.889      0.838      0.911        0.7
+               buffalo        225         89      0.949      0.876      0.945      0.749
+              elephant        225         91      0.726      0.813      0.863      0.638
+                 rhino        225         85      0.952      0.847      0.922      0.753
+                 zebra        225        114      0.928      0.816      0.912      0.662
+Speed: 0.2ms preprocess, 8.9ms inference, 0.0ms loss, 3.9ms postprocess per image
+
+---
+Memory usage during inferencing: 802 MiB
 ```
 
 ### YOLOv8 Medium
