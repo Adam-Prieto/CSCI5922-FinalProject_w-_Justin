@@ -171,6 +171,34 @@ DONE (t=0.28s).
 04/21 11:28:52 - mmengine - INFO - Epoch(test) [225/225]    coco/bbox_mAP: 0.7130  coco/bbox_mAP_50: 0.9140  coco/bbox_mAP_75: 0.7940  coco/bbox_mAP_s: 0.2380  coco/bbox_mAP_m: 0.5680  coco/bbox_mAP_l: 0.7380  data_time: 0.0191  time: 0.0484
 ```
 
+```
+04/22 21:23:57 - mmengine - INFO - before build:
+04/22 21:23:57 - mmengine - INFO - (GB) mem_used: 17.70 | uss: 0.23 | total_proc: 1
+Loads checkpoint by local backend from path: work_dirs/rtmdet_l_8xb32-300e_coco/epoch_100.pth
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+04/22 21:23:58 - mmengine - INFO - after build:
+04/22 21:23:58 - mmengine - INFO - (GB) mem_used: 17.86 | uss: 0.38 | total_proc: 1
+04/22 21:24:01 - mmengine - INFO - ==================================
+04/22 21:24:01 - mmengine - INFO - Done image [50 /2000], fps: 32.6 img/s, times per image: 30.7 ms/img, cuda memory: 397 MB
+04/22 21:24:01 - mmengine - INFO - (GB) mem_used: 19.84 | uss: 2.11 | total_proc: 1
+04/22 21:24:03 - mmengine - INFO - ==================================
+04/22 21:24:03 - mmengine - INFO - Done image [100/2000], fps: 32.5 img/s, times per image: 30.8 ms/img, cuda memory: 397 MB
+04/22 21:24:03 - mmengine - INFO - (GB) mem_used: 19.86 | uss: 2.11 | total_proc: 1
+04/22 21:24:05 - mmengine - INFO - ==================================
+04/22 21:24:05 - mmengine - INFO - Done image [150/2000], fps: 32.2 img/s, times per image: 31.0 ms/img, cuda memory: 397 MB
+04/22 21:24:05 - mmengine - INFO - (GB) mem_used: 19.85 | uss: 2.11 | total_proc: 1
+04/22 21:24:07 - mmengine - INFO - ==================================
+04/22 21:24:07 - mmengine - INFO - Done image [200/2000], fps: 32.2 img/s, times per image: 31.1 ms/img, cuda memory: 397 MB
+04/22 21:24:07 - mmengine - INFO - (GB) mem_used: 19.85 | uss: 2.11 | total_proc: 1
+04/22 21:24:08 - mmengine - INFO - ============== Done ==================
+04/22 21:24:08 - mmengine - INFO - Overall fps: 32.2 img/s, times per image: 31.1 ms/img
+04/22 21:24:08 - mmengine - INFO - cuda memory: 397 MB
+04/22 21:24:08 - mmengine - INFO - (GB) mem_used: 19.85 | uss: 2.11 | total_proc: 1
+```
+
 ### DINO
 Configuration file: `configs/african-wildlife/dino-5scale_swin-l_8xb2-12e_coco.py`
 ```
