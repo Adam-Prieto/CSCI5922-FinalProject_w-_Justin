@@ -236,6 +236,34 @@ DONE (t=0.61s).
 04/21 11:31:25 - mmengine - INFO - Epoch(test) [225/225]    coco/bbox_mAP: 0.7880  coco/bbox_mAP_50: 0.9300  coco/bbox_mAP_75: 0.8430  coco/bbox_mAP_s: 0.1180  coco/bbox_mAP_m: 0.6070  coco/bbox_mAP_l: 0.8170  data_time: 0.0103  time: 0.0829
 ```
 
+```
+04/22 21:27:39 - mmengine - INFO - before build:
+04/22 21:27:39 - mmengine - INFO - (GB) mem_used: 17.65 | uss: 0.23 | total_proc: 1
+Loads checkpoint by local backend from path: work_dirs/dino-5scale_swin-l_8xb2-12e_coco/epoch_36.pth
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+04/22 21:27:42 - mmengine - INFO - after build:
+04/22 21:27:42 - mmengine - INFO - (GB) mem_used: 17.81 | uss: 0.38 | total_proc: 1
+04/22 21:27:47 - mmengine - INFO - ==================================
+04/22 21:27:47 - mmengine - INFO - Done image [50 /2000], fps: 13.8 img/s, times per image: 72.6 ms/img, cuda memory: 1198 MB
+04/22 21:27:47 - mmengine - INFO - (GB) mem_used: 19.84 | uss: 2.11 | total_proc: 1
+04/22 21:27:50 - mmengine - INFO - ==================================
+04/22 21:27:50 - mmengine - INFO - Done image [100/2000], fps: 14.8 img/s, times per image: 67.4 ms/img, cuda memory: 1312 MB
+04/22 21:27:50 - mmengine - INFO - (GB) mem_used: 19.81 | uss: 2.11 | total_proc: 1
+04/22 21:27:53 - mmengine - INFO - ==================================
+04/22 21:27:53 - mmengine - INFO - Done image [150/2000], fps: 15.4 img/s, times per image: 64.9 ms/img, cuda memory: 1312 MB
+04/22 21:27:53 - mmengine - INFO - (GB) mem_used: 19.73 | uss: 2.11 | total_proc: 1
+04/22 21:27:57 - mmengine - INFO - ==================================
+04/22 21:27:57 - mmengine - INFO - Done image [200/2000], fps: 15.6 img/s, times per image: 64.1 ms/img, cuda memory: 1312 MB
+04/22 21:27:57 - mmengine - INFO - (GB) mem_used: 19.81 | uss: 2.11 | total_proc: 1
+04/22 21:27:58 - mmengine - INFO - ============== Done ==================
+04/22 21:27:58 - mmengine - INFO - Overall fps: 15.6 img/s, times per image: 64.1 ms/img
+04/22 21:27:58 - mmengine - INFO - cuda memory: 1312 MB
+04/22 21:27:58 - mmengine - INFO - (GB) mem_used: 19.81 | uss: 2.11 | total_proc: 1
+```
+
 ---
 
 ## Bounding Box Visuals
